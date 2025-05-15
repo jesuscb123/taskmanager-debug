@@ -8,6 +8,7 @@ import es.prog2425.taskmanager.modelo.Tarea
 import es.prog2425.taskmanager.servicios.ActividadService
 import io.kotest.assertions.throwables.shouldThrow
 import io.kotest.core.spec.style.DescribeSpec
+import io.kotest.matchers.should
 import io.kotest.matchers.shouldBe
 import io.mockk.every
 import io.mockk.mockk
@@ -44,6 +45,15 @@ class ActividadServiceTest : DescribeSpec({
             tarea.descripcion shouldBe descripcion
             verify { mockRepositorio.agregarTarea(tarea) }
         }
+
+        it ("Debe lanzar un error por tarea vacía"){
+            val descripcion = ""
+            shouldThrow<IllegalArgumentException> {
+                actividadService.crearTarea(descripcion)
+            }
+        }
+
+
     }
 
     describe("asociar Subtarea") {
