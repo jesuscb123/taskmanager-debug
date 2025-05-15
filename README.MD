@@ -1,5 +1,5 @@
 # TaskManager-Debug
-EJERCICIO JESÚS KOTEST EN ESTA RAMA: [EJERICIIO KOTEST JESÚS](https://github.com/jesuscb123/taskmanager-debug/tree/EjercicioJesus-Kotest)
+EJERCICIO JESÚS KOTEST EN ESTA RAMA: [EJERCICIO KOTEST JESÚS](https://github.com/jesuscb123/taskmanager-debug/tree/EjercicioJesus-Kotest)
 ## Introducción
 
 ## Errores encontrados 
