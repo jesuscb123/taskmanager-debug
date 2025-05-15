@@ -56,7 +56,7 @@ Paginas web de las herramientas
 
 La actividad consiste en instalar y usar un analizador de código estático (Detekt o Ktlint) en el proyecto que vienes desarrollando, capturar evidencias gráficas, detectar y clasificar errores, aplicar soluciones y explorar las posibilidades de configuración de la herramienta elegida.
 
-### Instalación de Ktlint 
+### Instalación de Ktlint
 -  solo debemos incluir arriba del fichero *bluid.gradle.kts* esta línea de código:
 
 https://github.com/jesuscb123/taskmanager-debug/blob/a1f4ae4f2e376827256711e9f073f1264f12c1e3/build.gradle.kts#L1
@@ -70,6 +70,16 @@ https://github.com/jesuscb123/taskmanager-debug/blob/a1f4ae4f2e376827256711e9f07
   https://github.com/jesuscb123/taskmanager-debug/blob/a1f4ae4f2e376827256711e9f073f1264f12c1e3/build.gradle.kts#L9-L21
 
 #### Errores encontrados por ktlin:
-  1. Se debe dejar un espacio al final de ActividadService.kt.
-![img.png](./images/img.png)
-  2. Debe haber un espacio aquí: 
+![img.png](./images/imgErrores.png)
+1. Añadir un salto de línea al final del archivo ActividadRepository.kt
+![img.png](./images/img5.png)
+Solución: 
+2. Se debe dejar un espacio entre ActividadRepository y los dos puntos:
+![img.png](./images/img4.png)
+3. Se debe incluir un salto de línea al final del archivo ActividadService.kt
+![img.png](./images/img6.png)
+4. Pide que se especifique que es lo que estoy importando ya que termina en *:
+![img.png](./images/img8.png)
+5. Salto de línea inncesario:
+![img.png](./images/img9.png)
+
