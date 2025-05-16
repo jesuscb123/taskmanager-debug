@@ -2,7 +2,11 @@ package es.prog2425.taskmanager.servicios
 
 import es.prog2425.taskmanager.datos.ActividadRepository
 import es.prog2425.taskmanager.datos.IActividadRepository
-import es.prog2425.taskmanager.modelo.*
+import es.prog2425.taskmanager.modelo.Actividad
+import es.prog2425.taskmanager.modelo.Estado
+import es.prog2425.taskmanager.modelo.Evento
+import es.prog2425.taskmanager.modelo.Tarea
+
 
 //ktlin me ha avisado de que tenía los dos puntos cerca de repositorio.
 class ActividadService(val repositorio : IActividadRepository = ActividadRepository()) {
