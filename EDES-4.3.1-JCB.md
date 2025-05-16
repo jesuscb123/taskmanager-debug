@@ -89,10 +89,11 @@ https://github.com/jesuscb123/taskmanager-debug/blob/a1f4ae4f2e376827256711e9f07
 
    https://github.com/jesuscb123/taskmanager-debug/commit/8cb2328fd538a93f2e789d8414d9f3949a3a670e
 5. Salto de línea inncesario:
-
-   https://github.com/jesuscb123/taskmanager-debug/commit/618ba4bb2bd799cda92e1eaf226a031b0c42ba9a
 ![img.png](./images/img9.png)
 
+    Solución:
+
+   https://github.com/jesuscb123/taskmanager-debug/commit/618ba4bb2bd799cda92e1eaf226a031b0c42ba9a
 ### Modificar una opción de configuración de ktlin
 He añadido esta línea a la configuración de ktlin para que no me salte un error si al importar uso * como en el error 4 anterior. Ahora al usar el analizador, ese aviso no salta y me lo permite.
 Configuración de ktlin:
