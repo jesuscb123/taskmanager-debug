@@ -91,6 +91,10 @@ https://github.com/jesuscb123/taskmanager-debug/blob/a1f4ae4f2e376827256711e9f07
     https://github.com/jesuscb123/taskmanager-debug/commit/fbf4256f87a4add08cc06d3a72346b222d9075b3
 4. Pide que se especifique que es lo que estoy importando ya que termina en *:
 ![img.png](./images/img8.png)
+
+    Solución:
+
+   https://github.com/jesuscb123/taskmanager-debug/commit/8cb2328fd538a93f2e789d8414d9f3949a3a670e
 5. Salto de línea inncesario:
 
 ![img.png](./images/img9.png)

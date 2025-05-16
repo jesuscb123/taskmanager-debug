@@ -30,7 +30,6 @@ class ActividadService(val repositorio : IActividadRepository = ActividadReposit
         tarea.cambiarEstadoConHistorial(nuevoEstado)
     }
 
-
     fun listarActividades(): List<Actividad> = repositorio.obtenerActividades() //Ktlin me ha avisado de que añada un salto de línea final.
 
 }
