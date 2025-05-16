@@ -84,3 +84,12 @@ Id del documento a entregar: PRO-4.3.2-Iniciales.md, donde PRO identifica el mó
 Para revisar el código utilizando el analizador de código del IDE, debemos ir al directorio raíz del proyecto>click derecho>Anlyze>Inpesct Code.
 Una vez hecho nos apareceran mejoras que podemos hacer a nuestro código.
 
+### Cinco code smell y patrones de refactorización
+1. Un import que nunca se usa.
+![img.png](./images/img10.png)
+2. Función *CerrarConHistorial* nunca se usa.
+![img.png](./images/img11.png)
+### Aplicación de refactorizaciones
+3. Propiedad que podría ser privada.
+![img.png](./images/img13.png)
+- Seleccionar y aplicar al menos tres patrones de refactorización distintos (p.ej. Extracción de Método, Introducir Parámetro Objeto, Simplificar Condicional).
