@@ -62,7 +62,7 @@ https://github.com/jesuscb123/taskmanager-debug/blob/a1f4ae4f2e376827256711e9f07
 
   https://github.com/jesuscb123/taskmanager-debug/blob/a1f4ae4f2e376827256711e9f073f1264f12c1e3/build.gradle.kts#L9-L21
 
-#### Errores encontrados por ktlin:
+### Errores encontrados por ktlin:
 ![img.png](./images/imgErrores.png)
 1. Añadir un salto de línea al final del archivo ActividadRepository.kt
 ![img.png](./images/img5.png)
@@ -95,5 +95,10 @@ https://github.com/jesuscb123/taskmanager-debug/blob/a1f4ae4f2e376827256711e9f07
 
 ### Modificar una opción de configuración de ktlin
 He añadido esta línea a la configuración de ktlin para que no me salte un error si al importar uso * como en el error 4 anterior. Ahora al usar el analizador, ese aviso no salta y me lo permite.
+Configuración de ktlin:
 
+https://github.com/jesuscb123/taskmanager-debug/blob/0f5a90f52cc631f107cd98628e62c8f9299e9126/build.gradle.kts#L9-L22
 
+Línea añadida en la configuración:
+
+https://github.com/jesuscb123/taskmanager-debug/blob/0f5a90f52cc631f107cd98628e62c8f9299e9126/build.gradle.kts#L21
