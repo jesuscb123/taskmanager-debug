@@ -89,6 +89,7 @@ https://github.com/jesuscb123/taskmanager-debug/blob/a1f4ae4f2e376827256711e9f07
 
    https://github.com/jesuscb123/taskmanager-debug/commit/8cb2328fd538a93f2e789d8414d9f3949a3a670e
 5. Salto de línea inncesario:
+
 ![img.png](./images/img9.png)
 
     Solución:
