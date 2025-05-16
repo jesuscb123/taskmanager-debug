@@ -80,7 +80,9 @@ https://github.com/jesuscb123/taskmanager-debug/blob/a1f4ae4f2e376827256711e9f07
 2. Se debe dejar un espacio entre ActividadRepository y los dos puntos:
 ![img.png](./images/img4.png)
 
-    
+    Solución:
+
+    https://github.com/jesuscb123/taskmanager-debug/commit/07bd5616fd1ae925a26ba45abfb267e17e5c829f
 3. Se debe incluir un salto de línea al final del archivo ActividadService.kt
 ![img.png](./images/img6.png)
 4. Pide que se especifique que es lo que estoy importando ya que termina en *:
