@@ -104,3 +104,53 @@ https://github.com/jesuscb123/taskmanager-debug/blob/0f5a90f52cc631f107cd98628e6
 Línea añadida en la configuración:
 
 https://github.com/jesuscb123/taskmanager-debug/blob/0f5a90f52cc631f107cd98628e62c8f9299e9126/build.gradle.kts#L21
+
+### Responder preguntas
+1. Apartado:
+    - ¿Que herramienta has usado, y para que sirve?
+   
+    He utilizado ktlin que es un analizador de código para comprobar y mostrar los errores encontrados en el código para que el desarrollador pueda solucionarlos.
+    - ¿Cuales son sus características principales?
+    
+    Ktlin puede generar ficheros para mostrar la salida de los errores. Por ejemplo en el caso anterior, me ha mostrado los errores en un html. También puede hacerlo en json o en texto plano por consola.
+    
+    Otra de sus características es evitar el uso de varias herramientas, con ktlin además de analizar, cuenta con un formateo automático de código. 
+   También permite modificar sus reglas para que el desarrollador pueda elegir que errores debe contemplar o como debe comportarse.
+   - ¿Qué beneficios obtengo al utilizar dicha herramienta?
+   
+    El principal beneficio que he obtenido es que me muestre que malas prácticas he estado empleando (cómo añadir saltos de líneas innecesarios) para poder mejorar mis buenas prácticas en el código.
+2. Apartado:
+   -  De los errores/problemas que la herramienta ha detectado y te ha ayudado a solucionar, ¿cual es el que te ha parecido que ha mejorado más tu código?
+
+    El que más ha mejorado fue el de importar, debido que al poner un import * puede ser confuso sobre qué está importando realmente, ya que el asterisco importa todo. Además, es mucho mejor importar solo lo necesario y no todo.
+   - La solución que se le ha dado al error/problema la has entendido y te ha parecido correcta?
+    
+    Sí, en el caso del error anterior, como he dicho, es mucho mejor importar solo lo necesario y es algo que nunca había tenido en cuenta hasta ahora, me parece muy buena práctica.
+   -  ¿Por qué se ha producido ese error/problema?
+
+    Se debe a que importe todo y más de lo que necesitaba, entonces me estaba avisando de que importe solo lo necesario para que sea más legible y mejor práctica.
+3. Apartado:
+   -  ¿Que posibilidades de configuración tiene la herramienta?
+    
+   Puede activar o desactivar reglas si deseas que ciertos errores no se notifiquen. 
+
+    También dispone de formateo automático para que se mantenga con un estilo uniforme sin la intervención del desarrollador.
+
+    Puede hacer que la salida en consola se vea más coloreada y detallada para ser más legible.
+   - De esas posibilidades de configuración, ¿cuál has configurado para que sea distinta a la que viene por defecto?
+   
+    La de evitar que ciertos errores se notifiquen, en el caso anterior para cambiar su comportamiento, modifiqué la configuración para que el aviso de usar import con * no se notifique.
+   - Pon un ejemplo de como ha impactado en tu código, enlazando al código anterior al cambio, y al posterior al cambio.
+
+    El código anterior era así:
+
+   ![img.png](./images/img8.png)
+   
+    Ahora es así: 
+
+   https://github.com/jesuscb123/taskmanager-debug/blob/04af353965a0ed084762af7bd15ddc052a28c25e/src/main/kotlin/servicios/ActividadService.kt#L5-L8
+
+4. Apartado:
+   - ¿Qué conclusiones sacas después del uso de estas herramientas?
+   
+    El hacer uso de las buenas prácticas y que por parte de las herramientas, es muy útil disponer de algo que permite ver errores que no se perciben a simple vista, y además, que cuente con un formateo automático para despreocuparte de modificarlo uno por uno.
