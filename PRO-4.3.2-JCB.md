@@ -100,3 +100,4 @@ Una vez hecho nos apareceran mejoras que podemos hacer a nuestro código.
     - Simplificar condicional:
   En el quinto error se puede simplificar gracias al IDE. Nos ponemos encima y el ide dejará la opción de que el lo refactorice.
 
+  https://github.com/jesuscb123/taskmanager-debug/commit/8979e77958c593a5b1b2594b279c2e2f6cc63a53
