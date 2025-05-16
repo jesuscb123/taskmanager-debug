@@ -73,15 +73,19 @@ https://github.com/jesuscb123/taskmanager-debug/blob/a1f4ae4f2e376827256711e9f07
 ![img.png](./images/imgErrores.png)
 1. Añadir un salto de línea al final del archivo ActividadRepository.kt
 ![img.png](./images/img5.png)
-Solución: 
+
+    Solución: 
 
     https://github.com/jesuscb123/taskmanager-debug/commit/fac1d99c0e9dd8b270ffe8505b27318e6a6f8f5c
 2. Se debe dejar un espacio entre ActividadRepository y los dos puntos:
 ![img.png](./images/img4.png)
+
+    
 3. Se debe incluir un salto de línea al final del archivo ActividadService.kt
 ![img.png](./images/img6.png)
 4. Pide que se especifique que es lo que estoy importando ya que termina en *:
 ![img.png](./images/img8.png)
 5. Salto de línea inncesario:
+
 ![img.png](./images/img9.png)
 
