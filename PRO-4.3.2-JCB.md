@@ -92,4 +92,11 @@ Una vez hecho nos apareceran mejoras que podemos hacer a nuestro código.
 ### Aplicación de refactorizaciones
 3. Propiedad que podría ser privada.
 ![img.png](./images/img13.png)
+4. Función *pedirEtiquetas* nunca ha sido usado.
+![img.png](./images/img14.png)
+5. El método *generaarId* puede refactorizarse.
+![img.png](./images/img15.png)
 - Seleccionar y aplicar al menos tres patrones de refactorización distintos (p.ej. Extracción de Método, Introducir Parámetro Objeto, Simplificar Condicional).
+    - Simplificar condicional:
+  En el quinto error se puede simplificar gracias al IDE. Nos ponemos encima y el ide dejará la opción de que el lo refactorice.
+
