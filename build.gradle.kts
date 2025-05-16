@@ -18,6 +18,7 @@ ktlint {
     filter {
         exclude("**/style-violations.kt")
     }
+    disabledRules.set(setOf("no-wildcard-imports"))
 }
 
 group = "prog2425.dam1.prueba-calc-propio"

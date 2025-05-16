@@ -49,13 +49,6 @@ Apuntes dado en clase
 Recursos vistos en clase.
 Paginas web de las herramientas
 
-
-
-
-
-
-La actividad consiste en instalar y usar un analizador de código estático (Detekt o Ktlint) en el proyecto que vienes desarrollando, capturar evidencias gráficas, detectar y clasificar errores, aplicar soluciones y explorar las posibilidades de configuración de la herramienta elegida.
-
 ### Instalación de Ktlint
 -  solo debemos incluir arriba del fichero *bluid.gradle.kts* esta línea de código:
 
@@ -99,4 +92,8 @@ https://github.com/jesuscb123/taskmanager-debug/blob/a1f4ae4f2e376827256711e9f07
 
    https://github.com/jesuscb123/taskmanager-debug/commit/618ba4bb2bd799cda92e1eaf226a031b0c42ba9a
 ![img.png](./images/img9.png)
+
+### Modificar una opción de configuración de ktlin
+He añadido esta línea a la configuración de ktlin para que no me salte un error si al importar uso * como en el error 4 anterior. Ahora al usar el analizador, ese aviso no salta y me lo permite.
+
 
