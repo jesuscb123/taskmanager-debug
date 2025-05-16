@@ -85,6 +85,10 @@ https://github.com/jesuscb123/taskmanager-debug/blob/a1f4ae4f2e376827256711e9f07
     https://github.com/jesuscb123/taskmanager-debug/commit/07bd5616fd1ae925a26ba45abfb267e17e5c829f
 3. Se debe incluir un salto de línea al final del archivo ActividadService.kt
 ![img.png](./images/img6.png)
+
+    Solución:
+
+    https://github.com/jesuscb123/taskmanager-debug/commit/fbf4256f87a4add08cc06d3a72346b222d9075b3
 4. Pide que se especifique que es lo que estoy importando ya que termina en *:
 ![img.png](./images/img8.png)
 5. Salto de línea inncesario:
