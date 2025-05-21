@@ -9,6 +9,11 @@ import es.prog2425.taskmanager.modelo.Tarea
 
 
 //ktlin me ha avisado de que tenía los dos puntos cerca de repositorio.
+/**
+ * Clase encargada de gestionar la creación de eventos y tareas, asociar subtareas a tareas principales, cambiar el estado de las tareas y listar actividades.
+ *
+ * @property repositorio repositorio de actividades
+ */
 class ActividadService(val repositorio : IActividadRepository = ActividadRepository()) {
 
     fun crearEvento(descripcion: String, fecha: String, ubicacion: String) {

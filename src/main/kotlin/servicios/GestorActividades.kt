@@ -10,7 +10,13 @@ import es.prog2425.taskmanager.modelo.Estado
 import es.prog2425.taskmanager.modelo.Evento
 
 
-
+/**
+ * Clase encargada de gestionar la aplicación de actividades. Pide los datos necesarios, muestra el menú por consola y llama a los servicios para realizar las actividades necesarias.
+ *
+ * @property salida salida en la que se muestran, en este caso por consola.
+ * @property servicio servicio de actividades.
+ * @property servicioUsuario servicio que gestiona los usuarios.
+ */
 class GestorActividades {
 
     private val salida: Interfaz = Consola()

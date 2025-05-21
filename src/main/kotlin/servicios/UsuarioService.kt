@@ -5,6 +5,11 @@ import es.prog2425.taskmanager.datos.UsuarioRepository
 import es.prog2425.taskmanager.modelo.Tarea
 import es.prog2425.taskmanager.modelo.Usuario
 
+/**
+ * Clase encargada de gestionar las operaciones relacionadas con los usuarios. Gestiona la creación de usuarios, asignar tareas a los usuarios, obtener las tareas por usuario u obtener los usuarios por su nombre.
+ *
+ * @property repositorio repositorio de usuarios.
+ */
 class UsuarioService : IUsuarioService {
     private val repositorio: IUsuarioRepository = UsuarioRepository()
 
