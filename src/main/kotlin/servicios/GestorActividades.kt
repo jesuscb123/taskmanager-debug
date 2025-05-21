@@ -120,7 +120,7 @@ class GestorActividades {
     }
 
     private fun pedirEtiquetas(): List<String> {
-        salida.mostrarInput("Introduce las etiquetas (separadas por ';'):")
+        salida.mostrar("Introduce las etiquetas (separadas por ';'):")
         return salida.leerString().split(';').map { it.trim() }.filter { it.isNotEmpty() }
     }
 
