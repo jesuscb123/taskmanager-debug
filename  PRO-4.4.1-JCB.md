@@ -52,4 +52,13 @@ https://github.com/jesuscb123/taskmanager-debug/blob/dd1f0adb4cce0c7916e1f14ff98
 
 https://github.com/jesuscb123/taskmanager-debug/blob/dd1f0adb4cce0c7916e1f14ff98e66d55e6a6191/src/main/kotlin/servicios/UsuarioService.kt#L8-L16
 
+### Generación con Dokka
+- Primero incluimos el plugin en el build.gradle.kts
 
+https://github.com/jesuscb123/taskmanager-debug/blob/f4b045f4f23be4b31308503758069d137693e109/build.gradle.kts#L3-L7
+
+- Luego usamos la consola y ponemos el siguiente comando para que se genere la documentación en HTML.
+
+![img.png](./images/img29.png)
+
+- Una vez finalizado, se crea en el build un directorio llamado *dokka* todos los ficheros generados por dokka junto a los html que tendrá la documentación generada.
