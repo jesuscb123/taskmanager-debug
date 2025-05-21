@@ -1,75 +1,9 @@
 # TaskManager-Debug
 
-## Introducción
-La actividad consiste en instalar y usar un analizador de código estático (Detekt o Ktlint) en el proyecto que vienes desarrollando, capturar evidencias gráficas, detectar y clasificar errores, aplicar soluciones y explorar las posibilidades de configuración de la herramienta elegida.
+EJERCICIO JESÚS KOTEST EN ESTA RAMA: [EJERCICIO KOTEST JESÚS](https://github.com/jesuscb123/taskmanager-debug/tree/EjercicioJesus-Kotest)
 
-Instala y usa los analizadores de código comentados en clase: Detekt, Ktlint
+EJERCICIO JESÚS ANALIZADOR DE CÓDIGO EN ESTA RAMA: [EJERCICIO KTLIN JESÚS](https://github.com/jesuscb123/taskmanager-debug/tree/EjercicioJesus-Ktlint?tab=readme-ov-file)
 
-Objetivo:
+EJERCICIO JÉSUS  Aplicación de Code Smells y Patrones de Refactorización EN ESTA RAMA: [EJERCICIO REFACTORIZACIÓN JESÚS](https://github.com/jesuscb123/taskmanager-debug/tree/P4.E.2-JCB)
 
-Conocer que es Analizador de código y su proposito
-Familiarizarse con herramientas Detekt o Ktlint.
-Usar las herramientas y estudiar y aplicar configuraciones de la herramienta seleccionada.
-Trabajo a realizar:
-
-Haciendo uso de las herramientas descritas en el punto 4.3 Analizador de código
-
-Instalar la herramienta elegida (Detekt o Ktlint) e incluir capturas de pantalla del proceso.
-
-Integrar el analizador en el proyecto que se está desarrollando y ejecutar el análisis.
-
-Identificar al menos 5 tipos de errores detectados.
-
-Para cada tipo de error, documentar:
-
-Descripción del error.
-
-Solución aplicada (antes y después, con enlaces a commits específicos).
-
-Explorar y modificar al menos una opción de configuración del analizador distinta de la predeterminada; describir cómo afecta al código y por tanto al informe de errores.
-
-Responde a las preguntas:
-
-[1]
-1.a ¿Que herramienta has usado, y para que sirve?
-1.b ¿Cuales son sus características principales?
-1.c ¿Qué beneficios obtengo al utilizar dicha herramienta?
-[2]
-2.a De los errores/problemas que la herramienta ha detectado y te ha ayudado a solucionar, ¿cual es el que te ha parecido que ha mejorado más tu código?
-2.b ¿La solución que se le ha dado al error/problema la has entendido y te ha parecido correcta?
-2.c ¿Por qué se ha producido ese error/problema?
-[3]
-3.a ¿Que posibilidades de configuración tiene la herramienta?
-3.b De esas posibilidades de configuración, ¿cuál has configurado para que sea distinta a la que viene por defecto?
-3.c Pon un ejemplo de como ha impactado en tu código, enlazando al código anterior al cambio, y al posterior al cambio,
-[4]
-4 ¿Qué conclusiones sacas después del uso de estas herramientas?
-Recursos
-Apuntes dado en clase
-Recursos vistos en clase.
-Paginas web de las herramientas
-
-
-
-
-
-
-La actividad consiste en instalar y usar un analizador de código estático (Detekt o Ktlint) en el proyecto que vienes desarrollando, capturar evidencias gráficas, detectar y clasificar errores, aplicar soluciones y explorar las posibilidades de configuración de la herramienta elegida.
-
-### Instalación de Ktlint 
--  solo debemos incluir arriba del fichero *bluid.gradle.kts* esta línea de código:
-
-https://github.com/jesuscb123/taskmanager-debug/blob/a1f4ae4f2e376827256711e9f073f1264f12c1e3/build.gradle.kts#L1
-
-- Luego en plugins añadimos esta línea:
-
-https://github.com/jesuscb123/taskmanager-debug/blob/a1f4ae4f2e376827256711e9f073f1264f12c1e3/build.gradle.kts#L5
-
-- y por último la configuracion de ktlin:
-
-  https://github.com/jesuscb123/taskmanager-debug/blob/a1f4ae4f2e376827256711e9f073f1264f12c1e3/build.gradle.kts#L9-L21
-
-#### Errores encontrados por ktlin:
-  1. Se debe dejar un espacio al final de ActividadService.kt.
-![img.png](./images/img.png)
-  2. Debe haber un espacio aquí: 
+El ejercicio de REFACTORIZACIÓN está hecho en el siguiente fichero: [PRO-4.3.2-JCB.md](https://github.com/jesuscb123/taskmanager-debug/blob/P4.E.2-JCB/PRO-4.3.2-JCB.md)
