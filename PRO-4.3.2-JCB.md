@@ -88,20 +88,25 @@ Una vez hecho nos apareceran mejoras que podemos hacer a nuestro código.
 1. Un import que nunca se usa.
 
 ![img.png](./images/img10.png)
+
 2. Función *CerrarConHistorial* nunca se usa.
 
 ![img.png](./images/img11.png)
+
 3. Propiedad que podría ser privada.
 
 ![img.png](./images/img13.png)
+
 4. Función *pedirEtiquetas* nunca ha sido usado y también usa un println.
 
 ![img.png](./images/img14.png)
 
 ![img.png](./images/img16.png)
+
 5. El método *generaarId* puede refactorizarse.
 
 ![img.png](./images/img15.png)
+
 - Seleccionar y aplicar al menos tres patrones de refactorización distintos (p.ej. Extracción de Método, Introducir Parámetro Objeto, Simplificar Condicional).
     - Simplificar condicional:
   En el quinto error se puede simplificar gracias al IDE. Nos ponemos encima y el ide dejará la opción de que el lo refactorice.
@@ -116,6 +121,7 @@ Una vez hecho nos apareceran mejoras que podemos hacer a nuestro código.
   Con esta enumClass ya estamos introduciendo un parámetro objeto
   
   ![img.png](./images/img20.png)
+
   Para cambiar el estado de la tarea se utiliza un parámetro objeto
 
   ![img.png](./images/img22.png)
@@ -142,7 +148,9 @@ Una vez hecho nos apareceran mejoras que podemos hacer a nuestro código.
   Con esta enumClass ya estamos introduciendo un parámetro objeto
 
   ![img.png](./images/img20.png)
+
   Para cambiar el estado de la tarea se utiliza un parámetro objeto
 
   ![img.png](./images/img22.png)
+
 2. Teniendo en cuenta aquella funcionalidad que tiene pruebas unitarias, selecciona un patrón de refactorización de los que has aplicado y que están cubierto por los test unitarios. ¿Porque mejora o no mejora tu código? Asegurate de poner enlaces a tu código
