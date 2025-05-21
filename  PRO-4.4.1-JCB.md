@@ -62,3 +62,6 @@ https://github.com/jesuscb123/taskmanager-debug/blob/f4b045f4f23be4b313085037580
 ![img.png](./images/img29.png)
 
 - Una vez finalizado, se crea en el build un directorio llamado *dokka* todos los ficheros generados por dokka junto a los html que tendrá la documentación generada.
+
+![img.png](./images/img30.png)
+
