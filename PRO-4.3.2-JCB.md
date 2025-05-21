@@ -86,15 +86,21 @@ Una vez hecho nos apareceran mejoras que podemos hacer a nuestro código.
 
 ### Cinco code smell y patrones de refactorización
 1. Un import que nunca se usa.
+
 ![img.png](./images/img10.png)
 2. Función *CerrarConHistorial* nunca se usa.
+
 ![img.png](./images/img11.png)
 3. Propiedad que podría ser privada.
+
 ![img.png](./images/img13.png)
 4. Función *pedirEtiquetas* nunca ha sido usado y también usa un println.
+
 ![img.png](./images/img14.png)
+
 ![img.png](./images/img16.png)
 5. El método *generaarId* puede refactorizarse.
+
 ![img.png](./images/img15.png)
 - Seleccionar y aplicar al menos tres patrones de refactorización distintos (p.ej. Extracción de Método, Introducir Parámetro Objeto, Simplificar Condicional).
     - Simplificar condicional:
@@ -103,15 +109,19 @@ Una vez hecho nos apareceran mejoras que podemos hacer a nuestro código.
   https://github.com/jesuscb123/taskmanager-debug/commit/8979e77958c593a5b1b2594b279c2e2f6cc63a53
   -  Extracción de método:
   En sel cuarto error se puede extraer a un método el println() ya que tenemos un método de la consola que permite mostrar.
+  
   ![img.png](./images/img17.png)
   
   - Introducir Parámetro Objeto:
   Con esta enumClass ya estamos introduciendo un parámetro objeto
+  
   ![img.png](./images/img20.png)
   Para cambiar el estado de la tarea se utiliza un parámetro objeto
+
   ![img.png](./images/img22.png)
   
   He realizado las pruebas unitarias y todas las pruebas pasan correctamente.
+
 ![img_1.png](./images/img24.png)
   
 ### Contestar preguntas
@@ -125,10 +135,14 @@ Una vez hecho nos apareceran mejoras que podemos hacer a nuestro código.
     https://github.com/jesuscb123/taskmanager-debug/commit/8979e77958c593a5b1b2594b279c2e2f6cc63a53
 -  Extracción de método:
    En sel cuarto error se puede extraer a un método el println() ya que tenemos un método de la consola que permite mostrar.
+
    ![img.png](./images/img17.png)
 
 - Introducir Parámetro Objeto:
   Con esta enumClass ya estamos introduciendo un parámetro objeto
+
   ![img.png](./images/img20.png)
   Para cambiar el estado de la tarea se utiliza un parámetro objeto
+
   ![img.png](./images/img22.png)
+2. Teniendo en cuenta aquella funcionalidad que tiene pruebas unitarias, selecciona un patrón de refactorización de los que has aplicado y que están cubierto por los test unitarios. ¿Porque mejora o no mejora tu código? Asegurate de poner enlaces a tu código
