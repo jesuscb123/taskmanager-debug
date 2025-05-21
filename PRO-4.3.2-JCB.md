@@ -153,4 +153,18 @@ Una vez hecho nos apareceran mejoras que podemos hacer a nuestro código.
 
   ![img.png](./images/img22.png)
 
-2. Teniendo en cuenta aquella funcionalidad que tiene pruebas unitarias, selecciona un patrón de refactorización de los que has aplicado y que están cubierto por los test unitarios. ¿Porque mejora o no mejora tu código? Asegurate de poner enlaces a tu código
+2. Teniendo en cuenta aquella funcionalidad que tiene pruebas unitarias, selecciona un patrón de refactorización de los que has aplicado y que están cubierto por los test unitarios. ¿Porque mejora o no mejora tu código? Asegurate de poner enlaces a tu código.
+
+   https://github.com/jesuscb123/taskmanager-debug/blob/1f1aefd1702f265f993d85aeceadc806eaed7af7/src/test/kotlin/services/ActividadServiceTest.kt#L79-L97
+
+  La manera en la que ha mejorado es que ahora la tarea puede contener los estados que sean necesarios y solo se limitan a los estados que se encuentren en la enumClass. Esto permite que el usuario no pueda "inventar" un estado nuevo, solo puede contener los que estén en la enumClass ya que el estado es de tipo Estado.
+
+3. Describe el proceso que sigues para asegurarte que la refactorización no afecta a código que ya tenias desarrollado.
+  Por ejemplo el método generarId no afecta ya que antes había un mapaIdEventos.put que hace lo mismo que mapaIdEventos[fecha] = identificador. Entonces, al ponerlo de la segunda manera, el código se mantiene igual.
+
+  ![img.png](./images/img15.png)
+
+https://github.com/jesuscb123/taskmanager-debug/blob/1f1aefd1702f265f993d85aeceadc806eaed7af7/src/main/kotlin/modelo/GeneradorID.kt#L22-L27
+4. ¿Que funcionalidad del IDE has usado para aplicar la refactorización seleccionada? Si es necesario, añade capturas de pantalla para identificar la funcionalidad.
+  La funcionalidad del ide que he utilizado es *convert put to assigment* y él solo te permite refactorizar esa parte del código.
+  ![img.png](./images/img25.png)

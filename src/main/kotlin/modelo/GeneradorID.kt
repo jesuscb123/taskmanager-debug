@@ -23,7 +23,7 @@ class GeneradorID {
             identificador = mapaIdEventos[fecha]!! + 1
         } else {
             identificador = 1
-            mapaIdEventos[fecha] = identificador
+            mapaIdEventos.put(fecha, identificador)
         }
 
         val fechaSeparada = fecha.split("-")
